@@ -1,0 +1,26 @@
+<%- include("ejs_temps/header"); %>
+<div class="main">
+    <form class="header-search" action="/search" method="POST">
+        <input type = "text" class = "form-control" placeholder="Search your GoT character here" name = "srchtxt" id="srchtxt">
+        <button type="submit" class="button-submit" value="Search">Search</button>
+    </form>
+    <br/>
+    <br/>
+    <br/>
+    <img class="image" src= <%= selected_char.imageUrl %> >
+        <div class="label"><b>ID: </b> <%= selected_char.id %></div>
+        <div class="label"><b>First Name: </b> <%= selected_char.firstName %></div>
+        <div class="label"><b>Last Name: </b> <%= selected_char.lastName %></div>
+        <div class="label"><b>Full Name: </b><%= selected_char.fullName %></div>
+        <div class="label"><b>Title:</b> <%= selected_char.title %></div>
+        <div class="label"><b>Family: </b><%= selected_char.family %></div>
+        
+    <br/>
+    <form action="/next" method="POST">
+        <button class="next" type="submit" value="next">Next</button>
+    </form>
+    <form action="/previous" method="POST">
+        <button class="previous" type="submit" value="previous">Previous</button>
+    </form>
+</div>
+<%- include("ejs_temps/footer"); %>

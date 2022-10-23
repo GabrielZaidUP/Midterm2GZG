@@ -1,0 +1,177 @@
+.body{
+  background-color: grey;
+  background-image: url(https://wallpaperset.com/w/full/7/9/b/18243.jpg);
+  background-attachment:fixed;
+  background-size:cover;
+
+}
+.header-search .form-control{
+  min-width: 50vw;
+  max-height: 20vh;
+  min-height: 10vh;
+  max-width: 50vh;
+  margin-top: 5px;
+  background-color: rgb(173, 173, 173);
+    color: rgb(0, 0, 0);
+}
+.header-search{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    cursor: pointer;
+}
+  
+  .image {
+    margin-bottom: 40px;
+    margin-top: 60px;
+    max-height: 30vh;
+    min-height: 10vh;
+  }
+
+  .main {
+    color: #000000;
+    font-family: "Crimson Text", sans-serif;
+    text-align: center;
+  }
+
+  .label{
+    background-color: darkgrey ;
+    opacity: 90%;
+    font-size: x-large;
+  }
+
+  .button-submit {
+    appearance: none;
+    position: absolute;
+    left: 10px;
+    min-width: 50vw;
+    max-height: 20vh;
+    margin-top: 5px;
+    min-height: 10vh;
+    max-width: 50vh;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Crimson Text", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+  }
+  .button-submit:disabled {
+    pointer-events: none;
+  }
+  
+  .button-submit:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-submit:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+  .next {
+    appearance: none;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin-right:15vw;
+    min-width: 10vw;
+    max-height: 20vh;
+    min-height: 5vh;
+    max-width: 30vw;
+    background-color: #585353;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Crimson Text", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+  }
+  .next:disabled {
+    pointer-events: none;
+  }
+  
+  .next:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .next:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  .previous {
+    appearance: none;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin-left:15vw;
+    min-width: 10vw;
+    max-height: 20vh;
+    min-height: 5vh;
+    max-width: 30vw;
+    background-color: #c4c4c4;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Crimson Text", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+  }
+  .previous:disabled {
+    pointer-events: none;
+  }
+  
+  .previous:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .previous:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
